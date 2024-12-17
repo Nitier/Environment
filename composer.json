@@ -1,0 +1,14 @@
+{
+    "name": "nitier/environment",
+    "description": "Environment variables",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nitier\\": "src/"
+        },
+        "files": [
+            "bootstrap.php"
+        ]
+    }
+}
