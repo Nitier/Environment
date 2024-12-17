@@ -23,7 +23,7 @@ class Environment
      */
     public static function setRoot(?string $path = null): void
     {
-        self::$root = $path ?: dirname(__DIR__, 3);
+        self::$root = $path ?: dirname(__DIR__, 4);
     }
 
     /**
