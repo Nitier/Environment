@@ -150,7 +150,7 @@ class Environment
     public static function all(): array
     {
         $variables = [];
-        foreach ($_ENV as $key => $value) {
+        foreach (getenv() as $key => $value) {
             $variables[$key] = self::castValue($value);
         }
         return $variables;
